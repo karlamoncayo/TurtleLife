@@ -38,7 +38,7 @@ body {
 .title {
     font-size: 28px;
     font-weight: bold;
-    text-transform: capitalize;
+    text-transform: none;
 }
 .title-primary {
     color: #fff;
@@ -71,6 +71,7 @@ body {
     margin-top: 1rem;
 }
 .btn-primary {
+    font-size: 15px;
     background-color: transparent;
     border: 1px solid #fff;
     transition: background-color .5s;
@@ -80,6 +81,7 @@ body {
     color: #6DD9BE;
 }
 .btn-second {
+    font-size: 15px;
     background-color: #6DD9BE;
     border: 1px solid #6DD9BE;
     transition: background-color .5s;
